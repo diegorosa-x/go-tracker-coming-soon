@@ -29,7 +29,8 @@ const Hero: React.FC = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a
-              href="https://wa.me/5519999999999"
+              href="https://wa.me/5519995778009?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20planos%20de%20rastreamento%20da%20GoTracker.%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento."
+              target="_blank"
               className="bg-[#F48120] hover:bg-[#d96e1a] text-white px-8 py-4 rounded-xl font-bold text-lg shadow-xl shadow-orange-900/20 transform hover:-translate-y-1 transition-all flex items-center justify-center gap-3 group"
             >
               <MessageCircle className="w-6 h-6 group-hover:scale-110 transition-transform" />
