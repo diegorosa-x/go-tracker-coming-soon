@@ -14,8 +14,8 @@ const Hero: React.FC = () => {
           </div>
 
           <h1 className="text-2xl md:text-7xl lg:text-7xl font-extrabold leading-tight text-[#0B122E] dark:text-white font-montserrat transition-colors duration-300">
-            O Controle Total<br className="hidden md:block" />
-            do Seu Veículo está 
+            O Controle Total<br className="hidden md:block pr-2" />
+            <span className="pl-2">do</span> Seu Veículo está 
             <span className="text-transparent pl-2 md:pl-5 bg-clip-text bg-gradient-to-r from-[#F48120] to-orange-400">
                chegando.
             </span>
