@@ -191,6 +191,7 @@ const Assistant: React.FC = () => {
         replyTimeoutRef.current = null;
       }, wait);
     } catch (err) {
+      console.log("err", err)
       setShowTyping(false);
       setIsLoading(false);
       setMessages((prev) => [
