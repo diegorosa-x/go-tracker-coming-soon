@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "GoTracker | Rastreamento Veicular",
-  description: "Proteja seu patrimônio com a GoTracker. Rastreamento em tempo real, bloqueio remoto e assistência 24h.",
+  description:
+    "Proteja seu patrimônio com a GoTracker. Rastreamento em tempo real, bloqueio remoto e assistência 24h.",
 };
 
 export default function RootLayout({
@@ -23,8 +24,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body
+        suppressHydrationWarning
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}

@@ -11,7 +11,7 @@ const ThemeToggle: React.FC<ThemeToggleProps> = ({ theme, toggleTheme }) => {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2.5 rounded-full bg-slate-200 dark:bg-white/5 border border-slate-300 dark:border-white/10 text-[#0B122E] dark:text-white hover:bg-slate-300 dark:hover:bg-white/10 transition-all duration-300 flex items-center justify-center group"
+      className="p-2.5 mt-2 rounded-full bg-slate-200 dark:bg-white/5 border border-slate-300 dark:border-white/10 text-[#0B122E] dark:text-white hover:bg-slate-300 dark:hover:bg-white/10 transition-all duration-300 flex items-center justify-center group"
       aria-label="Alternar tema"
     >
       {theme === 'dark' ? (
