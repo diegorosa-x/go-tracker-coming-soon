@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
           </p>
         </motion.div>
 
-        {/* Redes Sociais */}
+        {/* Redes Sociais 
         <motion.div
           variants={fadeUp}
           className="flex gap-6"
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
               <Icon className="w-6 h-6" />
             </motion.a>
           ))}
-        </motion.div>
+        </motion.div>*/}
 
         {/* Copyright */}
         <motion.div
